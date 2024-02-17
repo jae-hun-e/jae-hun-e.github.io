@@ -20,7 +20,7 @@ title: "hun2__2"
 title_separator: "|"
 subtitle: "No pain No Gain"
 name: "jaehun"
-description: "과정을 적는 블로그입니다."
+description: "제 생각과 과정을 기록하는 곳입니다."
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -105,7 +105,7 @@ analytics:
 author:
   name: "jaehun"
   avatar: "/assets/images/hun.png"
-  bio: "제 생각과 과정을 적는 곳입니다."
+  bio: "제 생각과 과정을 기록하는 곳입니다."
   location: "South Korea"
   email:
   links:
@@ -273,11 +273,15 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
       read_time: false
-      comments: # true
+      comments: true
       share: true
       related: true
       show_date: true
+      toc: true
+      toc_sticky: true
+      toc_label: "목차"
+      toc_icon: "fa-solid fa-clipboard"
+      author_profile: false
 
 date_format: "%Y-%m-%d"

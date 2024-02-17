@@ -8,13 +8,15 @@ tags:
   - edge case
   - lists
   - markup
-toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
 ---
 
+**[공지사항]**
 Nested and mixed lists are an interesting beast. It's a corner case to make sure that
+{: .notice--danger}
+
+**[경고]**
+Nested and mixed lists are an interesting beast. It's a corner case to make sure that
+{: .notice--warning}
 
 - Lists within lists do not break the ordered list numbering order
 - Your list styles go deep enough.

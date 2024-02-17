@@ -9,6 +9,9 @@ tags:
   - lists
   - markup
 toc: true
+author_profile: false
+sidebar:
+  nav: "docs"
 ---
 
 Nested and mixed lists are an interesting beast. It's a corner case to make sure that
